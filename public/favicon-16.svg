@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="chestSmall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 宝箱底部 -->
+  <rect x="3" y="8" width="10" height="6" fill="url(#chestSmall)" stroke="#5D4037" stroke-width="0.5" rx="1"/>
+  
+  <!-- 宝箱顶部 -->
+  <path d="M 3 8 Q 3 5 8 5 Q 13 5 13 8 L 13 10 L 3 10 Z" fill="url(#chestSmall)" stroke="#5D4037" stroke-width="0.5"/>
+  
+  <!-- 金色装饰 -->
+  <rect x="3" y="9" width="10" height="1" fill="#FFD700"/>
+  <rect x="7" y="5" width="2" height="9" fill="#FFD700"/>
+  
+  <!-- 锁头 -->
+  <circle cx="8" cy="10" r="1.5" fill="#B8860B"/>
+  <circle cx="8" cy="10" r="0.8" fill="#FFD700"/>
+</svg>
